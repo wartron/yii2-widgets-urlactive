@@ -1,0 +1,22 @@
+{
+    "name": "wartron/yii2-widgets-urlactive",
+    "description": "Yii2 Widgets to override Nav and Menu isItemActive",
+    "keywords": ["yii2", "widget"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Will Wharton",
+            "email": "w@wartron.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "wartron\\yii2widgets\\urlactive\\": ""
+        }
+    }
+}
